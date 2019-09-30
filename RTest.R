@@ -1,4 +1,5 @@
 # phuber's erlang functions
+# Big thanks to Patrick Hubers for putting this up on his git
 
 intensity <- function(arrival_rate, avg_handle_time, interval_length = 60) {
   return ((arrival_rate / (60*interval_length))* avg_handle_time)
