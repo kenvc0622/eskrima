@@ -444,3 +444,7 @@ rm(ag01,ag02,ag03,ag04,ag05,ag06,ag07,ag08,ag09,ag10,ag11,ag12,ag13,ag14,ag15,ag
 
 
 tab_agents.needed<- data.frame(agents.mon,agents.tue,agents.wed,agents.thu,agents.fri,agents.sat,agents.sun)
+
+ts.agentsneeded<- ts(tab_agents.needed)
+
+plot(ts.agentsneeded)
